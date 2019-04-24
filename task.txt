@@ -1,0 +1,12 @@
+Neue Shapes für die GraphicsApp
+
+Erweitern Sie die Funktionalität der GraphicsApp um zwei neue Formen: Ein gleichschenkliges
+Dreieck (Triangle) sowie ein Achsen-symmetrisches Sechseck (Hexagon).
+Beide Formen werden durch entsprechende Java-Klassen abgebildet, die von GraphicsObject
+erben. Die Darstellung erfolgt in der überschriebenen draw-Methode durch Zeichnen
+der Umrisslinien. Das Innere der Formen muss nicht eingefärbt bzw. dargestellt
+werden. Testen Sie anschließend Ihre Anwendung, in dem Sie die auskommentierten
+Zeilen der ShapesTestApp durch Entfernen der Kommentare nutzbar machen und
+die Anwendung ausführen. Haben Sie die Klassen korrekt implementiert, sollten Sie
+die neuen Formen auf dem Bildschirm sehen. Das Sechseck bewegt sich nach oben
+links, das Dreieck nach unten rechts.
